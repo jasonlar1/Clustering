@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Data and Outputs (Sensitive data from notebooks)
+synthetic_customers.xlsx
+synthetic_customer_products.xlsx
+synthetic_transactions.xlsx
+datasets/
+clean_datasets/
+grouped_tx/
+final_features/
+clusters/
+rules/
+
+# NEW: Ignorar informes y archivos Excel generados
+classification_report/
+outliers/
+summary/
+describe_numeric_variables.xlsx
+*.xlsx   # Si quieres ignorar TODOS los Excel (recomendado)
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
